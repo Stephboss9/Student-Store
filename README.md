@@ -1,4 +1,6 @@
-# Project #2: Student Store
+# Student Store
+## Deployment Link:
+https://student-store-omega.vercel.app/
 
 ## Overview
 
