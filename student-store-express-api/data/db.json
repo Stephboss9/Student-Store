@@ -1,0 +1,452 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Rice Krispies",
+      "category": "food",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/cd/RKTsquares.jpg",
+      "source": "https://en.wikipedia.org/wiki/Rice_Krispies_Treats",
+      "description": "Delicious corn-based rice grains melted together with marshmallows into a square-like shape.",
+      "price": 0.99
+    },
+    {
+      "id": 2,
+      "name": "Flamin Hot Cheetos",
+      "category": "food",
+      "image": "https://static.openfoodfacts.org/images/products/896/400/009/0879/front_en.14.full.jpg",
+      "source": "https://world.openfoodfacts.org/cgi/product_image.pl?code=8964000090879&id=front_en",
+      "description": "No one knows what's in the powder that covers these snacks, but wow is it amazing!",
+      "price": 1.5
+    },
+    {
+      "id": 3,
+      "name": "Cinnamon Rolls",
+      "category": "food",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Johns_Inc_Cinnamon_Rolls.jpg",
+      "source": "https://en.wikipedia.org/wiki/File:Johns_Inc_Cinnamon_Rolls.jpg",
+      "description": "Basically just cake for breakfast, but who's complaining?",
+      "price": 2.99
+    },
+    {
+      "id": 4,
+      "name": "Coconut Water",
+      "category": "food",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Coconut_Drink%2C_Pangandaran.JPG/1920px-Coconut_Drink%2C_Pangandaran.JPG",
+      "source": "https://commons.wikimedia.org/wiki/Category:Coconut_water#/media/File:Coconut_Drink,_Pangandaran.JPG",
+      "description": "Somehow incredibly hydrating, while also not really being water.",
+      "price": 3.25
+    },
+    {
+      "id": 5,
+      "name": "Fruit Medley",
+      "category": "food",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Fruits.png/640px-Fruits.png",
+      "source": "https://commons.wikimedia.org/wiki/File:Fruits.png",
+      "description": "More fruit than you know what to do with!",
+      "price": 7.5
+    },
+    {
+      "id": 6,
+      "name": "Bar Code Shirts",
+      "category": "clothing",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Barcode_wikipedia_shirt.svg/640px-Barcode_wikipedia_shirt.svg.png",
+      "source": "https://commons.wikimedia.org/wiki/File:Barcode_wikipedia_shirt.svg",
+      "description": "So you can scan yourself in the checkout aisle.",
+      "price": 19.99
+    },
+    {
+      "id": 7,
+      "name": "Striped Socks",
+      "category": "clothing",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Bulk_tube_socks.png",
+      "source": "https://commons.wikimedia.org/wiki/File:Bulk_tube_socks.png",
+      "description": "Because the dryer ate most of your socks and it never hurts to have another clean pair.",
+      "price": 4.99
+    },
+    {
+      "id": 8,
+      "name": "Knitted Beanie",
+      "category": "clothing",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Blue_knit-cap_beanie_by_RobertLender.jpeg/640px-Blue_knit-cap_beanie_by_RobertLender.jpeg",
+      "source": "https://commons.wikimedia.org/wiki/File:Blue_knit-cap_beanie_by_RobertLender.jpeg",
+      "description": "Keeps your head absurdly warm while the rest of your body freezes.",
+      "price": 19.99
+    },
+    {
+      "id": 9,
+      "name": "Pullover Sweater",
+      "category": "clothing",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Jumper_altered_PsCSJPG10.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Jumper_altered_PsCSJPG10.jpg",
+      "description": "At $4.99, can you really afford NOT to buy this?",
+      "price": 4.99
+    },
+    {
+      "id": 10,
+      "name": "Alpaca Wool Scarf",
+      "category": "clothing",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Alpaca_wool_scarf.JPG/800px-Alpaca_wool_scarf.JPG",
+      "source": "https://commons.wikimedia.org/wiki/File:Alpaca_wool_scarf.JPG",
+      "description": "Legends say that the Alpaca knitted this scarf from its own fur.",
+      "price": 34.99
+    },
+    {
+      "id": 11,
+      "name": "Matching Rings",
+      "category": "accessories",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Wedding_rings.jpg/800px-Wedding_rings.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Wedding_rings.jpg",
+      "description": "Ball out and get one for each finger!",
+      "price": 200
+    },
+    {
+      "id": 12,
+      "name": "Apple Watch",
+      "category": "accessories",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Apple_Watch.jpg/800px-Apple_Watch.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Apple_Watch.jpg",
+      "description": "Why check your phone all the time when you can check your watch all the time?",
+      "price": 399.99
+    },
+    {
+      "id": 13,
+      "name": "Copper Bracelet",
+      "category": "accessories",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Copper_bracelet_04.jpg/640px-Copper_bracelet_04.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Copper_bracelet_04.jpg",
+      "description": "Compliment this accessory with a batter and some wire and you have yourself a portable charger right on your wrist!",
+      "price": 70
+    },
+    {
+      "id": 14,
+      "name": "Keyboard",
+      "category": "tech",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Apple-wireless-keyboard.jpg/800px-Apple-wireless-keyboard.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Apple-wireless-keyboard.jpg",
+      "description": "A wireless keyboard for your computer! Because who doesn't like walking around while they type up an essay.",
+      "price": 110
+    },
+    {
+      "id": 15,
+      "name": "Mouse from 1998",
+      "category": "tech",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Mouse_Microsoft_PS2.jpg/640px-Mouse_Microsoft_PS2.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Mouse_Microsoft_PS2.jpg",
+      "description": "Check out this fancy Microsoft mouse that was in use right before the dot com bubble crash of the 2000s! It's a collectors' item that still works great. Brings back that 'on the verge of the world collapsing' feeling.",
+      "price": 19.98
+    },
+    {
+      "id": 16,
+      "name": "Smart Glasses",
+      "category": "tech",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Google_Glass_photo.JPG/330px-Google_Glass_photo.JPG",
+      "source": "https://en.wikipedia.org/wiki/Google_Glass",
+      "description": "Have the internet mounted to your face, and get the added benefit of looking silly all the time!",
+      "price": 999.99
+    }
+  ],
+  "user": {
+    "name": "",
+    "email": ""
+  },
+  "purchases": [
+    {
+      "id": 3,
+      "name": "Stephane Mbenga",
+      "email": "mbengastephane34@gmail.com",
+      "order": [
+        {
+          "itemId": 2,
+          "quantity": 2
+        },
+        {
+          "itemId": 3,
+          "quantity": 2
+        }
+      ],
+      "total": "9.77",
+      "totalItems": 4,
+      "createdAt": "2022-06-24T20:06:41.615Z",
+      "receipt": [
+        "Showing receipt for Stephane Mbenga available at mbengastephane34@gmail.com:",
+        "1. 2 total Flamin Hot Cheetos purchased at a cost of $1.50 for a total cost of $3.00.",
+        "2. 2 total Cinnamon Rolls purchased at a cost of $2.99 for a total cost of $5.98.",
+        "Before Taxes, the subtotal was $8.98 After taxes and fees were applied, the total comes out to $9.77. Thanks for shopping!"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Stephane Mbenga",
+      "email": "mbengastephane34@gmail.com",
+      "order": [
+        {
+          "itemId": 1,
+          "quantity": 5
+        },
+        {
+          "itemId": 2,
+          "quantity": 4
+        }
+      ],
+      "total": "11.91",
+      "totalItems": 9,
+      "createdAt": "2022-06-24T20:15:02.470Z",
+      "receipt": [
+        "Showing receipt for Stephane Mbenga available at mbengastephane34@gmail.com:",
+        "1. 5 total Rice Krispies purchased at a cost of $0.99 for a total cost of $4.95.",
+        "2. 4 total Flamin Hot Cheetos purchased at a cost of $1.50 for a total cost of $6.00.",
+        "Before Taxes, the subtotal was $10.95 After taxes and fees were applied, the total comes out to $11.91. Thanks for shopping!"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Stephane Mbenga",
+      "email": "mbengastephane34@gmail.com",
+      "order": [
+        {
+          "itemId": 1,
+          "quantity": 3
+        },
+        {
+          "itemId": 2,
+          "quantity": 3
+        }
+      ],
+      "total": "8.12",
+      "totalItems": 6,
+      "createdAt": "2022-06-24T20:19:04.138Z",
+      "receipt": [
+        "Showing receipt for Stephane Mbenga available at mbengastephane34@gmail.com:",
+        "1. 3 total Rice Krispies purchased at a cost of $0.99 for a total cost of $2.97.",
+        "2. 3 total Flamin Hot Cheetos purchased at a cost of $1.50 for a total cost of $4.50.",
+        "Before Taxes, the subtotal was $7.47 After taxes and fees were applied, the total comes out to $8.12. Thanks for shopping!"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Stephane Mbenga",
+      "email": "mbengastephane34@gmail.com",
+      "order": [
+        {
+          "itemId": 2,
+          "quantity": 6
+        },
+        {
+          "itemId": 3,
+          "quantity": 4
+        }
+      ],
+      "total": "22.79",
+      "totalItems": 10,
+      "createdAt": "2022-06-24T21:22:44.814Z",
+      "receipt": [
+        "Showing receipt for Stephane Mbenga available at mbengastephane34@gmail.com:",
+        "1. 6 total Flamin Hot Cheetos purchased at a cost of $1.50 for a total cost of $9.00.",
+        "2. 4 total Cinnamon Rolls purchased at a cost of $2.99 for a total cost of $11.96.",
+        "Before Taxes, the subtotal was $20.96 After taxes and fees were applied, the total comes out to $22.79. Thanks for shopping!"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Stephane Mbenga",
+      "email": "mbengastephane34@gmail.com",
+      "order": [
+        {
+          "itemId": 11,
+          "quantity": 2
+        },
+        {
+          "itemId": 12,
+          "quantity": 2
+        },
+        {
+          "itemId": 13,
+          "quantity": 9
+        }
+      ],
+      "total": "1990.10",
+      "totalItems": 13,
+      "createdAt": "2022-06-24T21:41:16.297Z",
+      "receipt": [
+        "Showing receipt for Stephane Mbenga available at mbengastephane34@gmail.com:",
+        "1. 2 total Matching Rings purchased at a cost of $200.00 for a total cost of $400.00.",
+        "2. 2 total Apple Watch purchased at a cost of $399.99 for a total cost of $799.98.",
+        "3. 9 total Copper Bracelet purchased at a cost of $70.00 for a total cost of $630.00.",
+        "Before Taxes, the subtotal was $1829.98 After taxes and fees were applied, the total comes out to $1990.10. Thanks for shopping!"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Stephane Mbenga",
+      "email": "mbengastephane34@gmail.com",
+      "order": [
+        {
+          "itemId": 3,
+          "quantity": 3
+        },
+        {
+          "itemId": 6,
+          "quantity": 3
+        }
+      ],
+      "total": "74.97",
+      "totalItems": 6,
+      "createdAt": "2022-06-24T22:32:46.882Z",
+      "receipt": [
+        "Showing receipt for Stephane Mbenga available at mbengastephane34@gmail.com:",
+        "1. 3 total Cinnamon Rolls purchased at a cost of $2.99 for a total cost of $8.97.",
+        "2. 3 total Bar Code Shirts purchased at a cost of $19.99 for a total cost of $59.97.",
+        "Before Taxes, the subtotal was $68.94 After taxes and fees were applied, the total comes out to $74.97. Thanks for shopping!"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Stephane Mbenga",
+      "email": "mbengastephane34@gmail.com",
+      "order": [
+        {
+          "itemId": 5,
+          "quantity": 3
+        },
+        {
+          "itemId": 6,
+          "quantity": 3
+        }
+      ],
+      "total": "89.69",
+      "totalItems": 6,
+      "createdAt": "2022-06-24T22:34:33.621Z",
+      "receipt": [
+        "Showing receipt for Stephane Mbenga available at mbengastephane34@gmail.com:",
+        "1. 3 total Fruit Medley purchased at a cost of $7.50 for a total cost of $22.50.",
+        "2. 3 total Bar Code Shirts purchased at a cost of $19.99 for a total cost of $59.97.",
+        "Before Taxes, the subtotal was $82.47 After taxes and fees were applied, the total comes out to $89.69. Thanks for shopping!"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Stephane Mbenga",
+      "email": "mbengastephane34@gmail.com",
+      "order": [
+        {
+          "itemId": 1,
+          "quantity": 4
+        }
+      ],
+      "total": "4.31",
+      "totalItems": 4,
+      "createdAt": "2022-06-24T23:07:33.664Z",
+      "receipt": [
+        "Showing receipt for Stephane Mbenga available at mbengastephane34@gmail.com:",
+        "1. 4 total Rice Krispies purchased at a cost of $0.99 for a total cost of $3.96.",
+        "Before Taxes, the subtotal was $3.96 After taxes and fees were applied, the total comes out to $4.31. Thanks for shopping!"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Stephane Mbenga",
+      "email": "mbengastephane34@gmail.com",
+      "order": [
+        {
+          "itemId": 2,
+          "quantity": 2
+        }
+      ],
+      "total": "3.26",
+      "totalItems": 2,
+      "createdAt": "2022-06-24T23:33:32.069Z",
+      "receipt": [
+        "Showing receipt for Stephane Mbenga available at mbengastephane34@gmail.com:",
+        "1. 2 total Flamin Hot Cheetos purchased at a cost of $1.50 for a total cost of $3.00.",
+        "Before Taxes, the subtotal was $3.00 After taxes and fees were applied, the total comes out to $3.26. Thanks for shopping!"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Stephane Mbenga",
+      "email": "mbengastephane34@gmail.com",
+      "order": [
+        {
+          "itemId": 5,
+          "quantity": 2
+        },
+        {
+          "itemId": 6,
+          "quantity": 2
+        }
+      ],
+      "total": "59.79",
+      "totalItems": 4,
+      "createdAt": "2022-06-25T00:10:00.940Z",
+      "receipt": [
+        "Showing receipt for Stephane Mbenga available at mbengastephane34@gmail.com:",
+        "1. 2 total Fruit Medley purchased at a cost of $7.50 for a total cost of $15.00.",
+        "2. 2 total Bar Code Shirts purchased at a cost of $19.99 for a total cost of $39.98.",
+        "Before Taxes, the subtotal was $54.98 After taxes and fees were applied, the total comes out to $59.79. Thanks for shopping!"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Stephane Mbenga",
+      "email": "mbengastephane34@gmail.com",
+      "order": [
+        {
+          "itemId": 1,
+          "quantity": 2
+        },
+        {
+          "itemId": 2,
+          "quantity": 2
+        },
+        {
+          "itemId": 3,
+          "quantity": 2
+        },
+        {
+          "itemId": 14,
+          "quantity": 1
+        },
+        {
+          "itemId": 15,
+          "quantity": 5
+        }
+      ],
+      "total": "240.19",
+      "totalItems": 12,
+      "createdAt": "2022-06-25T00:54:12.699Z",
+      "receipt": [
+        "Showing receipt for Stephane Mbenga available at mbengastephane34@gmail.com:",
+        "1. 2 total Rice Krispies purchased at a cost of $0.99 for a total cost of $1.98.",
+        "2. 2 total Flamin Hot Cheetos purchased at a cost of $1.50 for a total cost of $3.00.",
+        "3. 2 total Cinnamon Rolls purchased at a cost of $2.99 for a total cost of $5.98.",
+        "4. 1 total Keyboard purchased at a cost of $110.00 for a total cost of $110.00.",
+        "5. 5 total Mouse from 1998 purchased at a cost of $19.98 for a total cost of $99.90.",
+        "Before Taxes, the subtotal was $220.86 After taxes and fees were applied, the total comes out to $240.19. Thanks for shopping!"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Stephane Mbenga",
+      "email": "mbengastephane34@gmail.com",
+      "order": [
+        {
+          "itemId": 1,
+          "quantity": 3
+        },
+        {
+          "itemId": 2,
+          "quantity": 3
+        }
+      ],
+      "total": "8.12",
+      "totalItems": 6,
+      "createdAt": "2022-06-25T00:58:22.493Z",
+      "receipt": [
+        "Showing receipt for Stephane Mbenga available at mbengastephane34@gmail.com:",
+        "1. 3 total Rice Krispies purchased at a cost of $0.99 for a total cost of $2.97.",
+        "2. 3 total Flamin Hot Cheetos purchased at a cost of $1.50 for a total cost of $4.50.",
+        "Before Taxes, the subtotal was $7.47 After taxes and fees were applied, the total comes out to $8.12. Thanks for shopping!"
+      ]
+    }
+  ]
+}
