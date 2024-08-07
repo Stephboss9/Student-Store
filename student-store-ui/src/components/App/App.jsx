@@ -41,15 +41,7 @@ export default function App() {
     });
   }
     , [])
-  /*
-   let getQuantity = (product) => {
-    let productData = shoppingCart.filter(current => {
-      (current.id === product.id)
-     })
-     console.log("getQuantity call check", productData)
-     return productData[0]
-  }
-  */
+
   //Toggles the sidebar
   let handleOnToggle = () => {
     let sidebar = document.querySelector(".sidebar");

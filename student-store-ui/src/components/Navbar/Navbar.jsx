@@ -1,36 +1,49 @@
 import * as React from "react"
 import { Link } from "react-router-dom"
 import companyLogo from "../../../Images/codepath-transparent.png"
+import { useState } from "react"
 import "./Navbar.css"
-import twitter_icon from "../../../Images/twitter_icon.png"
-import ig_icon from "../../../Images/ig_icon.png"
-import fb_icon from "../../../Images/facebook_icon.png"
 
 
 export default function Navbar() {
+  const [showMobile, setShowMobile] = useState(false);
+
+  function handleMobileToggle() {
+    setShowMobile(!showMobile);
+  }
+
   return (
     <nav className="navbar">
-    <Logo />
-    <div className="socials">
-    <Link  to ="/"><img className ="icon" src = {twitter_icon}/></Link> 
-    <Link  to ="/"><img className = "icon ig" src = {ig_icon}/></Link> 
-    <Link  to ="/"><img className = "icon" src = {fb_icon}/></Link> 
-    </div>
-    <div className="nav-links">
-    <a className = "link" href="#Home">Home</a>
-    <a className = "link" href="#About">About Us</a>
-    <a className = "link" href="#Contact">Contact Us</a>
-    <Link className = "link" to="/purchases">Orders</Link>
+      <Logo />
+      <div className="nav-links">
+        <Link to="/" className="link"><span>Home</span></Link>
+        <span><a className="link" href="#About">About Us</a></span>
+        <span><a className="link" href="#Contact">Contact Us</a></span>
+        <Link className="link" to="/purchases">Orders</Link>
+      </div>
+      <label className={`menu-icon ${showMobile ? "cross" : ""}`} onClick={handleMobileToggle}>
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+      <div className="mobile-nav-links">
+        <ul className={`nav-links-list ${showMobile ? "show-mobile-nav" : ""}`}>
+          <li><Link to="/" className="link">Home</Link></li>
+          <li><a className="link" href="#About">About Us</a></li>
+          <li><a className="link" href="#Contact">Contact Us</a></li>
+          <li>  <Link className="link" to="/purchases">Orders</Link></li>
+        </ul>
+      </div>
 
-    </div>
-    
-    </nav>
+
+    </nav >
+
   )
 }
 
 export function Logo() {
   return (
-    <div className="logo media"><Link to ="/"><img src = {companyLogo} className = "logo-img"/></Link></div> 
+    <div className="logo media"><Link to="/"><img src={companyLogo} className="logo-img" /></Link></div>
   )
 }
 
