@@ -1,6 +1,6 @@
 .navbar {
     display: flex;
-    justify-content: space-around;    
+    justify-content: space-between;
     background: var(--pure-white);
     width: 100%;
     flex-wrap: wrap;
@@ -8,15 +8,16 @@
     border: 2px solid var(--border-color);
     font-family: 'Ubuntu', sans-serif;
 }
-.logo {
-    align-self: center;
-    flex-grow: .4;
-}
+
 
 .logo-img {
     height: 70px;
     width: 70px;
     background: transparent;
+}
+
+.logo {
+    margin-left: 65px;
 }
 
 .icon {
@@ -27,36 +28,123 @@
 
 .ig {
     height: 40px;
-    width: 40px; 
+    width: 40px;
 }
-.link{
+
+.link {
     text-decoration: none;
     color: rgb(103, 103, 103);
     flex: 0 1 10%;
-    
+
     font-weight: 500;
 }
 
-.socials
- {
+.socials {
     display: flex;
     justify-content: start;
     align-items: center;
     width: 15%;
- }
+}
 
- .nav-links
- {
+.nav-links {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 30%;
     height: 100px;
- }
+    width: 400px;
+}
 
- .nav-links .link {
-    flex: 0 1 25%;
-    font-size: 20px;
- }
+.nav-links .link {
+    margin-right: 4px;
+    font-size: 1rem;
+}
+
+/* hamburger menu icon styling */
+.menu-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+    cursor: pointer;
+    position: fixed;
+    top: 25px;
+    right: 15px;
+    z-index: 1000;
+}
+
+.menu-icon span {
+    display: block;
+    height: 3px;
+    width: 100%;
+    background-color: #333;
+    border-radius: 2px;
+    transition: 0.3s;
+}
+
+.cross span:nth-child(1) {
+    transform: rotate(45deg);
+    position: relative;
+    top: 9px;
+}
+
+.cross span:nth-child(3) {
+    transform: rotate(-45deg);
+    top: -8px;
+    position: relative;
+}
+
+.cross span:nth-child(2) {
+    opacity: 0;
+}
 
 
+@keyframes navBarAnimation {
+    to {
+        opacity: 1;
+
+    }
+}
+
+
+.nav-links-list {
+    text-decoration: none;
+    list-style: none;
+    position: fixed;
+    top: 30px;
+    right: 15px;
+    line-height: 2em;
+    background: var(--pure-white);
+    padding: 5px 10px;
+    transition: top .3s;
+    opacity: 0;
+    animation-duration: 1s;
+    animation-name: navBarAnimation;
+    animation-fill-mode: forwards;
+    display: none;
+}
+
+.show-mobile-nav {
+    display: block;
+}
+
+
+
+@media (min-width:560px) {
+
+    .menu-icon,
+    .mobile-nav-links {
+        display: none;
+    }
+
+}
+
+@media (max-width: 560px) {
+    .nav-links {
+        display: none;
+    }
+
+    .navbar {
+        position: fixed;
+    }
+}
